@@ -1,0 +1,91 @@
+.test{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    
+}
+.down-banner{
+    
+    margin-top: 120px;
+    margin-left: 50px;
+    color:red;
+}
+.pic{
+    height: 200px;
+}
+.tall{
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 3px 6px 15px rgb(204, 191, 191);
+}
+h4, p{
+    color: black;
+}
+*{
+    font-family:sans-serif;
+}
+.fort{
+    text-transform: uppercase;
+    background-image: linear-gradient(-255deg, red 0%, orange 10%, yellow 20%, green 50%, blue 60%, purple 80%, pink 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: white;
+    background-clip: text;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: clip 2s linear infinite;
+    display: inline-block;
+        font-size: 40px;
+        align-items: center;
+}
+
+@keyframes clip{
+    to{
+        background-position: 200% center;
+    }
+}
+.logo{
+    width: 50px;
+}
+.uper{
+    position: fixed;
+    top:550px;
+    font-size: 80px;
+    left: 1350px;
+    width: 5%;
+}
+.mui-ten{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(121, 121, 246);
+    color:#FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 100px;
+    right: 25px;
+    cursor: pointer;
+}
+div, h3{ 
+    color:blue;
+    font-weight: 600;
+}
+.footer{
+    background-image: url(/pic/black-footer.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: fit-content;
+    
+}
+:root{
+    --text-color:#FFF;
+}
+li, a #text1{
+    color:var(--text-color);
+    text-decoration-color: #FFF;
+}
+

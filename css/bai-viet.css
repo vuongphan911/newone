@@ -1,0 +1,22 @@
+.img-center{
+    width: 600px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.text{
+    text-align: justify;
+}
+.linkk{
+    color:red;
+}
+.footer{
+    background-image: url(/pic/black-footer.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    
+}
+.logo{
+    width: 50px;
+}

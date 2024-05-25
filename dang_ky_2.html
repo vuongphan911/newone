@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Đăng ký học</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .header{
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(128, 169, 245);
+    position:fixed;
+
+}
+.nen{
+   border-radius: 50%;
+   width: 100px;
+
+   height: 100px;
+  
+}
+.checked{
+    font-size: 15px;
+}
+.tf{
+    align-items: center;
+}
+.bic{
+    width: 1000px;
+}
+.btnr{
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+    margin-left: -25px;
+}
+.label input hr{
+    
+}
+.logo{
+  width: 50px;
+}
+.footer{
+    background-image: url(./pic/black-footer.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    
+}
+
+    </style>
+  </head>
+  <body style="background-color: rgb(232, 232, 232);">
+    <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+      <a class="navbar-brand" href="./index.html"><img class="logo" src="./pic/Logo_ITC.jpg"></a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+          aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" style="font-size: 20px;" href="./index.html">Trang chủ <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: 20px;" href="https://itc.edu.vn/">Link</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="./content.html" id="" data-toggle="" aria-haspopup="true" aria-expanded="false" style="font-size: 20px;">Tin tức</a>
+            
+          </li>
+        </ul>
+
+        
+      </div>
+    </nav>
+
+
+    <div class="container mb-5" style="margin-top: 150px;">
+      <h3 class="text-center text-danger">ĐĂNG KÍ TUYỂN SINH OLINE</h3>
+      <h4 class="bg-primary text-center text-white p-2">THÔNG TIN HỌC SINH</h4>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="">Họ đệm<span class="text-danger">(*)</span></label>
+            <input type="text" name="" id="" class="form-control" placeholder="Nhập họ đệm" aria-describedby="helpId">
+            
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="form-group">
+            <label for="">Tên<span class="text-danger">(*)</span></label>
+            <input type="text" name="" id="" class="form-control" placeholder="Tên" aria-describedby="helpId">
+            
+          </div>
+        </div>
+        <div class="col-md-2">
+       <div class="form-group">
+        <label for="">Giới tính<span class="text-danger">(*)</span></label>
+        <select class="custom-select" name="" id="">
+        
+          <option value="">Nam</option>
+          <option value="">Nữ</option>
+          
+         
+        </select>
+       </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="">Năm sinh<span class="text-danger">(*)</span></label>
+            <input type="date" name="" id="" class="form-control" placeholder="Năm sinh" aria-describedby="helpId">
+            
+          </div>
+        </div>
+        <!---------Number 2-->
+        <div class="col-md-4">
+          <div class="form-group">
+           <label for="">Nơi sinh<span class="text-danger">(*)</span></label>
+           <select class="custom-select" name="" id="">
+             <option selected>Chọn nơi sinh</option>
+             <option value="">An Giang</option>
+             <option value="">Bà Rịa - Vũng Tàu</option>
+             <option>Bạc Liêu</option>
+             <option>Bắc Giang</option>
+             <option>Bắc Kạn</option>
+             <option>Bắc Ninh</option>
+             <option>Bến Tre</option>
+             <option>Bình Dương</option>
+             <option>Bình Định</option>
+             <option>Bình Phước</option>
+             <option>Bình Thuận</option>
+             <option>Cà Mau</option>
+             <option>Cao Bằng</option>
+             <option>Cần Thơ</option>
+             <option>Đà Nẵng</option>
+             <option>Đắk Lắk</option>
+             <option>Đắk Nông</option>
+             <option>Điện Biên</option>
+             <option>Đồng Nai</option>
+             <option>Đồng Tháp</option>
+             <option>Gia Lai</option>
+             <option>Hà Giang</option>
+             <option>Hà Nam</option>
+             <option>Hà Nội</option>
+             <option>Hà Tĩnh</option>
+             <option>Hải Dương</option>
+             <option>Hải Phòng</option>
+             <option>Hậu Giang</option>
+             <option>Hòa Bình</option>
+             <option>Thành phố Hồ Chí Minh</option>
+             <option>Hưng Yên</option>
+             <option>Khánh Hòa</option>
+             <option>Kiên Giang</option>
+             <option>Kon Tum</option>
+             <option>Lai Châu</option>
+             <option>Lạng Sơn</option>
+             <option>Lào Cai</option>
+             <option>Lâm Đồng</option>
+             <option>Long An</option>
+             <option>Nam Định</option>
+             <option>Nghệ An</option>
+             <option>Ninh Bình</option>
+             <option>Ninh Thuận</option>
+             <option>Phú Thọ</option>
+             <option>Phú Yên</option>
+             <option>Quảng Bình</option>
+             <option>Quảng Nam</option>
+             <option>Quảng Ngãi</option>
+             <option>Quảng Ninh</option>
+             <option>Quảng Trị</option>
+             <option>Sóc Trăng</option>
+             <option>Sơn La</option>
+             <option>Tây Ninh</option>
+             <option>Thái Bình</option>
+             <option>Thái Nguyên</option>
+             <option>Thanh Hóa</option>
+             <option>Thừa Thiên Huế</option>
+             <option>Tiền Giang</option>
+             <option>Trà Vinh</option>
+             <option>Tuyên Quang</option>
+             <option>Vĩnh Long</option>
+             <option>Vĩnh Phúc</option>
+             <option>Yên Bái</option>
+           </select>
+          </div>
+           </div>
+
+           <div class="col-md-4">
+            <div class="form-group">
+              <label for="">Số CMND/ Căn cước CD<span class="text-danger">(*)</span></label>
+              <input type="text" name="" id="" class="form-control" placeholder="Nhập số CMND/CCCD" aria-describedby="helpId">
+              
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="">Ngày cấp CMND/CCCD<span class="text-danger">(*)</span></label>
+              <input type="date" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+              
+            </div>
+          </div>
+          <!------Number 3-->
+          <div class="col-md-8">
+            <div class="form-group">
+              <label for="">Nơi cấp CMND/ CCCD</label>
+              <input type="text" name="" id="" class="form-control" placeholder="Nhập nơi cấp CMND/CCCD (Nếu CCCD: ghi CỤC TRƯỞNG CỤC CẢNH SÁT ...)" aria-describedby="helpId">
+              
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="">Email</label>
+              <input type="text" name="" id="" class="form-control" placeholder="Email" aria-describedby="helpId">
+              
+            </div>
+          </div>
+          <!----------Number 4-->
+          <div class="col-md-4">
+            <div class="form-group">
+             <label for="">Tỉnh thành phố<span class="text-danger">(*)</span></label>
+             <select class="custom-select" name="" id="">
+               <option selected>Chọn tỉnh thành phố</option>
+                <option value="">An Giang</option>
+                <option value="">Bà Rịa - Vũng Tàu</option>
+                <option>Bạc Liêu</option>
+                <option>Bắc Giang</option>
+                <option>Bắc Kạn</option>
+                <option>Bắc Ninh</option>
+                <option>Bến Tre</option>
+                <option>Bình Dương</option>
+                <option>Bình Định</option>
+                <option>Bình Phước</option>
+                <option>Bình Thuận</option>
+                <option>Cà Mau</option>
+                <option>Cao Bằng</option>
+                <option>Cần Thơ</option>
+                <option>Đà Nẵng</option>
+                <option>Đắk Lắk</option>
+                <option>Đắk Nông</option>
+                <option>Điện Biên</option>
+                <option>Đồng Nai</option>
+                <option>Đồng Tháp</option>
+                <option>Gia Lai</option>
+                <option>Hà Giang</option>
+                <option>Hà Nam</option>
+                <option>Hà Nội</option>
+                <option>Hà Tĩnh</option>
+                <option>Hải Dương</option>
+                <option>Hải Phòng</option>
+                <option>Hậu Giang</option>
+                <option>Hòa Bình</option>
+                <option>Thành phố Hồ Chí Minh</option>
+                <option>Hưng Yên</option>
+                <option>Khánh Hòa</option>
+                <option>Kiên Giang</option>
+                <option>Kon Tum</option>
+                <option>Lai Châu</option>
+                <option>Lạng Sơn</option>
+                <option>Lào Cai</option>
+                <option>Lâm Đồng</option>
+                <option>Long An</option>
+                <option>Nam Định</option>
+                <option>Nghệ An</option>
+                <option>Ninh Bình</option>
+                <option>Ninh Thuận</option>
+                <option>Phú Thọ</option>
+                <option>Phú Yên</option>
+                <option>Quảng Bình</option>
+                <option>Quảng Nam</option>
+                <option>Quảng Ngãi</option>
+                <option>Quảng Ninh</option>
+                <option>Quảng Trị</option>
+                <option>Sóc Trăng</option>
+                <option>Sơn La</option>
+                <option>Tây Ninh</option>
+                <option>Thái Bình</option>
+                <option>Thái Nguyên</option>
+                <option>Thanh Hóa</option>
+                <option>Thừa Thiên Huế</option>
+                <option>Tiền Giang</option>
+                <option>Trà Vinh</option>
+                <option>Tuyên Quang</option>
+                <option>Vĩnh Long</option>
+                <option>Vĩnh Phúc</option>
+                <option>Yên Bái</option>
+             </select>
+            </div>
+             </div>
+
+             <div class="col-md-4">
+              <div class="form-group">
+               <div class="form-group">
+              <label for="">Quận, Huyện</label>
+              <input type="text" name="" id="" class="form-control" placeholder="Quận, Huyện" aria-describedby="helpId">            
+            </div>
+              </div>
+               </div>
+
+               <div class="col-md-4">
+                <div class="form-group">
+                 <div class="form-group">
+              <label for="">Phường, Xã</label>
+              <input type="text" name="" id="" class="form-control" placeholder="Phường, Xã" aria-describedby="helpId">
+            </div>
+                </div>
+                 </div>
+                 <!--------Number 5-->
+                 <div class="col-md-8">
+                  <div class="form-group">
+                    <label for="">Địa chỉ(Thí sinh ghi rõ: số nhà, đường, Phường/Xã, Quận/Huyện, Tỉnh/Thành Phố)</label>
+                    <input type="text" name="" id="" class="form-control" placeholder="Địa chỉ" aria-describedby="helpId">
+                    
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="">Điện thoại<span class="text-danger">(*)</span></label>
+                    <input type="text" name="" id="" class="form-control" placeholder="Điện thoại" aria-describedby="helpId">
+                    
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <h6 style="font-weight: bolder;">Lưu ý: Sinh viên bắt buộc phải điền đầy đủ thông tin có dấu<span class="text-danger">(*)</span></h6>
+                </div>
+      </div><!-----------ROW xanh-->
+      <h4 class="bg-warning text-center text-white p-2">THÔNG TIN ĐĂNG KÝ</h4>
+      <div class="row">
+        <div class="col-md-4">
+          <p>Hệ đào tạo xét tuyển<span class="text-danger">(*)</span></p>
+        </div>
+
+        <div class="col-md-8">
+          <div class="form-group">
+          
+           <select class="custom-select" name="" id="">
+             <option selected>Chọn hệ đào tạo </option>
+             <option value="">Hệ Cao đẳng</option>
+             <option value="">Liên thông</option>
+             <option>Cao đẳng 9+</option>
+            
+           </select>
+          </div>
+           </div>
+           <!---------------N1-->
+           <div class="col-md-4">
+            <p>Hình thức học<span class="text-danger">(*)</span></p>
+           </div>
+
+           <div class="col-md-8">
+            <div class="form-group">
+             
+             <select class="custom-select" name="" id="">
+               <option selected>Lớp ngày</option>
+               <option value="">Sáng</option>
+               <option value="">Chiều </option>
+               <option value="">Tối</option>
+             </select>
+            </div>
+             </div>
+             <!---------N2-->
+             <div class="col-md-4">
+              <p>Ngành đăng ký xét tuyển<span class="text-danger">(*)</span></p>
+             </div>
+  
+             <div class="col-md-8">
+              <div class="form-group">
+               
+               <select class="custom-select" name="" id="">
+                 <option selected>Chọn ngành</option>
+                 <option value="">Thương mại điện tử</option>
+                 <option value="">Marketing</option>
+                 <option value="">Quản trị kinh doanh</option>
+                
+               </select>
+              </div>
+               </div>
+               <!--------------N3-->
+               <div class="col-md-4">
+                <p>Điều kiện xét tuyển<span class="text-danger">(*)</span></p>
+               </div>
+    
+               <div class="col-md-8">
+                <div class="form-group">
+                 
+                 <select class="custom-select" name="" id="">
+                   <option selected>Trình độ học vấn </option>
+                   <option value="">Tốt nghiệp THPT</option>
+                   <option value="">Tốt nghiệp THCS</option>
+                  
+                 </select>
+                </div>
+                 </div>
+                 <!--------N4-->
+                 <div class="col-sm-4">
+                  <p>Ghi chú</p>
+                 </div>
+
+                 <div class="col-sm-8">
+                  <textarea class="card-img-top" placeholder="Điền nội dung ghi chú!!" rows="5" cols="53"></textarea>
+                 </div>
+                 <div class="col-sm-12">
+                  <h6 style="font-weight: bolder;">Lưu ý: Sinh viên bắt buộc phải điền đầy đủ thông tin có dấu<span class="text-danger">(*)</span></h6>
+                </div>
+      </div><!---ROW vàng-->
+      <h4 class="bg-danger text-center text-white p-2">THÔNG TIN KHẢO SÁT</h4>
+      <div class="row">
+        <div class="col-md-12"><p>Bạn biết ITC thông qua các kênh nào sau đây?(Có thể click vào chọn nhiều kênh)</p></div>
+        <div class="col-md-3">
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input btnr" name="" id="" value="checkedValue" checked>
+                Wedsite ITC<hr>
+
+              <input type="checkbox" class="form-check-input btnr" name="" id="" value="checkedValue" checked>
+                Tư vấn dưới cờ
+            </label>
+            
+          </div>
+        </div>
+  
+     <div class="col-md-3">
+      <div class="form-check">
+        <label class="form-check-label">
+         <input type="checkbox" class="form-check-input btnr" name="" id="" value="checkedValue" checked>Facebook<hr>
+         <input type="checkbox" class="form-check-input btnr" name="" id="" value="checkedValue" checked>
+          Cẩm nang hướng nghiệp
+        </label>
+      </div>
+     </div>
+  
+       <div class="col-md-3">
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input btnr" name="" id="" value="checkedValue" checked>
+            Người giới thiệu<hr>
+            <input type="checkbox" class="form-check-input btnr" name="" id="" value="checkedValue" checked>Tờ rơi
+          </label>
+        </div>
+       </div>
+  
+       <div class="col-md-3">
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input btnr" name="" id="" value="checkedValue" checked>
+            Tìm kiếm trên Google<hr>
+            <input type="checkbox" class="form-check-input btnr" name="" id="" value="checkedValue" checked>Tin tức trên mạng
+          </label>
+        </div>
+       </div>
+          <p class="mt-5" style="font-size: 18px;">Tôi xin cam đoan những lời khai của tôi trên đăng ký online là đúng sự thật. Nếu sai tôi hoàn toàn chịu trách nhiệm và bị xử lý theo Quy chế tuyển sinh hiện thành</p>
+        
+        
+      </div>
+      <div class="row tf ">
+        <div class="col-lg-12 text-center">
+          <button class="btn btn-primary" data-toggle="modal" data-target="#myModel1">ĐĂNG KÝ NGAY</button>
+          <button class="btn btn-danger ml-2" data-toggle="modal" data-target="#myModel"><span class="fa fa-search"></span> TRA CỨU ĐĂNG KÝ ONLINE</button>
+           
+        </div>
+
+        
+      </div>
+     
+      
+      <!-- Modal ĐĂNG KÝ -->
+      
+      <div class="modal fade" id="myModel1" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">CẢM ƠN BẠN ĐÃ ĐĂNG KÝ<br/>CHÚC BẠN MỘT NGÀY MAY MẮN</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+              <img class="card-img-top" src="./pic/thank-you.png">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div><!---------------------------END ĐĂNG KÝ----------------------->
+
+
+
+
+      <!-----------------------------MODAL TRA CỨU---------------------------->
+      <div class="modal fade" id="myModel" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document"><!------------LÀM CHO MODAL DÀI HƠN-->
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title text-danger">TRA CỨU THÍ SINH ĐĂNG KÝ ONLINE</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span class="fa fa-arrow-left"></span>Trở về
+                     
+                    </button>
+                </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <p class="text-primary">Bạn nhập họ tên thí sinh hoặc chứng minh nhân dân để tra cứu thí sinh đăng ký online...!<span class="text-danger">(*)</span></p>
+           <div class="row">
+            <div class="col-md-10">
+           <div class="form-group">
+             
+             <input type="text" name="" id="" class="form-control" placeholder="Nhập tên thí sinh hoặc CMND" aria-describedby="helpId">
+           
+           </div>
+             </div>
+             <div class="col-md-2">
+              <button type="button" class="btn btn-primary" width="100px">Tìm kiếm</button>
+             </div>
+           </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div><!----------------------------END MONDAL TRA CỨU--------------->
+      
+      <script>
+        $('#exampleModal').on('show.bs.modal', event => {
+          var button = $(event.relatedTarget);
+          var modal = $(this);
+          // Use above variables to manipulate the DOM
+          
+        });
+      </script>
+
+    </div><!----container-->
+
+    <div class="row footer m-4">
+      <div class="col-lg-4 text-white mb-5">
+        <h3 class="mt-2" style="color:#FFF;">LIÊN HỆ</h3>
+        <a class="mt-3">Địa chỉ: 12 Trịnh Đình Thảo, Hòa Thạch, Tân Phú, TP.HCM</a><br>
+        <a class="pt-3">Phone: (028) 38605003 - (028) 38605004</a><br>
+        <a>Hotline: 0938861080</a><br>
+        <a>Email: tuyensinh@itc.edu.vn</a><br>
+      
+        <a style="text-decoration: underline;" class="mt-5">Cung cấp bởi Công ty CP CNTT & Viễn Thông BSC</a>
+      </div>
+      <div class="col-lg-4">
+        <h3 class="mt-2 text-white">PHÒNG BAN</h3>
+          <ul id="text1">
+            <li><a href="https://itc.edu.vn/gioi-thieu/khoa-trung-tam-phong-ban-chuc-nang/phong-ban-chuc-nang/phong-dao-tao-1">Phòng Đào tạo</a></li>
+            <li><a href="https://itc.edu.vn/gioi-thieu/khoa-trung-tam-phong-ban-chuc-nang/phong-ban-chuc-nang/phong-tuyen-sinh-va-truyen-thong">Phòng Tuyển sinh và Truyền Thông</a></li>
+            <li><a href="https://itc.edu.vn/gioi-thieu/khoa-trung-tam-phong-ban-chuc-nang/phong-ban-chuc-nang/phong-cong-tac-sinh-vien-1">Phòng Công tác Sinh viên</a></li>
+            <li><a href="https://itc.edu.vn/gioi-thieu/khoa-trung-tam-phong-ban-chuc-nang/phong-ban-chuc-nang/phong-to-chuc-hanh-chinh-1">Phòng Tổ chức - Hành chính</a></li>
+            <li><a href="https://itc.edu.vn/gioi-thieu/khoa-trung-tam-phong-ban-chuc-nang/phong-ban-chuc-nang/phong-ke-hoach-tai-chinh-1">Phòng Kế hoạch - Tài chính</a></li>
+            <li><a href="https://itc.edu.vn/gioi-thieu/khoa-trung-tam-phong-ban-chuc-nang/phong-ban-chuc-nang/phong-khao-thi-dam-bao-chat-luong-1">Phòng Khảo thí - Đảm bảo chất lượng</a></li>
+            <li><a href="https://itc.edu.vn/gioi-thieu/khoa-trung-tam-phong-ban-chuc-nang/khoatrung-tam/gioi-thieu-chung-2">Khoa Đại cương</a></li>
+            <li><a href="https://itc.edu.vn/gioi-thieu/khoa-trung-tam-phong-ban-chuc-nang/khoatrung-tam/khoa-cong-nghe-thong-tin-dien-tu-1">Khoa Công nghệ Thông tin - Điện tử</a></li>
+            <li><a href="https://itc.edu.vn/gioi-thieu/khoa-trung-tam-phong-ban-chuc-nang/khoatrung-tam/khoa-kinh-te-1">Khoa Kinh tế</a></li>
+            <li><a href="https://itc.edu.vn/gioi-thieu/khoa-trung-tam-phong-ban-chuc-nang/khoatrung-tam/trung-tam-ngoai-ngu-tin-hoc-1">Trung tâm Ngoại ngữ - Tin học</a></li>
+            <li><a href="https://itc.edu.vn/gioi-thieu/khoa-trung-tam-phong-ban-chuc-nang/khoatrung-tam/trung-tam-truyen-thong-va-quan-he-doanh-nghiep">Trung tâm Truyền thông & Quan hệ Doanh nghiệp</a></li>
+          </ul>
+      </div>
+      <div class="col-lg-4 mb-5">
+        <div class="row">
+          <div class="col-lg-12">
+            <iframe class="mt-3 card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4775763182292!2d106.63175927490781!3d10.774687289374002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ea144839ef1%3A0x798819bdcd0522b0!2zVHLGsOG7nW5nIENhbyDEkOG6s25nIEPDtG5nIE5naOG7hyBUaMO0bmcgVGluIFRwLkjhu5MgQ2jDrSBNaW5o!5e0!3m2!1svi!2s!4v1686628100392!5m2!1svi!2s" width="730" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-sm-3"><a href="https://www.facebook.com/itcportal247" target="_blank"><img class="card-img-top" src="./pic/Facebook_Logo_(2019).jpg"></a></div>
+          <div class="col-sm-3"><a href="https://www.youtube.com/channel/UCFqKot6Cj2-ztGXIeDsatJA" target="_blank"><img class="card-img-top" style="height: 95px; border-radius: 50%;" src="./pic/kisspng-youtube-red-logo-computer-icons-youtube-5abe39fec046a9.7547336915224161267876.jpg"></a></div>
+          <div class="col-sm-3"><a href="https://www.tiktok.com/@caodangcntt" target="_blank"><img style="border-radius: 50%;" class="card-img-top" src="./pic//logo-tiktok-vector-8.jpg"></a></div>
+          <div class="col-sm-3"><a href="https://zalo.me/0938861080" target="_blank"><img style="border-radius: 50%;" class="card-img-top" src="./pic/zalo.jpg.png"></a></div>
+        </div>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

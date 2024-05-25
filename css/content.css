@@ -1,0 +1,15 @@
+
+.cardd{
+    height: 370px;
+}
+.footer{
+    background-image: url(/pic/black-footer.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px; 
+}
+.logo{
+    width: 50px;
+}
+.first-pic{
+    height: 390px;
+}
