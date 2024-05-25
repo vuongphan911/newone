@@ -3,7 +3,7 @@
     height: 370px;
 }
 .footer{
-    background-image: url(/pic/black-footer.jpg);
+    background-image: url(./pic/black-footer.jpg);
     background-repeat: no-repeat;
     border-radius: 20px; 
 }
