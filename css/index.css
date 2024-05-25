@@ -75,7 +75,7 @@ div, h3{
     font-weight: 600;
 }
 .footer{
-    background-image: url(/pic/black-footer.jpg);
+    background-image: url(./pic/black-footer.jpg);
     background-repeat: no-repeat;
     border-radius: 20px;
     width: fit-content;
